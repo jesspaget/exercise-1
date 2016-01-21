@@ -49,3 +49,84 @@ h1 {
 	font-family: 'Megrim', cursive;
 	text-transform: uppercase;
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-size: 1em;
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	padding-bottom: .5rem;
+}
+
+h2 {
+	color: #FFD400;
+	font-family: 'Megrim', cursive;
+	text-align: center;
+	margin: .5em;
+}
+
+.lists {
+	margin-bottom: 2rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #FED245;
+  padding: 1rem .5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: 'Megrim', cursive;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footera {
+  text-decoration: none;
+  color: #FED245;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+	li {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	li {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 3.5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
